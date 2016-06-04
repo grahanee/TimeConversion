@@ -1,0 +1,62 @@
+package question.pkg1.pkg6;
+
+/**
+ *
+ * @author grahani
+ */
+
+import java.util.*;
+import java.lang.*;
+
+
+
+
+public class Question16 {
+
+    
+    public static void main(String[] args) {
+        
+        int seconds;
+        int result;
+        int remaining;
+        
+        Scanner second = new Scanner (System.in);
+        
+        
+        System.out.print("insert seconds: ");
+        seconds = second.nextInt();
+        
+        
+        result = seconds/60;
+        remaining = seconds%60;
+        
+        
+        System.out.println("second :" +seconds);
+        System.out.println("result (minute) :" +result);
+        System.out.println ("remaining: " +remaining);
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+                
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    }
+}
